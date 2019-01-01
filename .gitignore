@@ -1,0 +1,8 @@
+# dependencies
+/node_modules
+
+# css map
+/src/css/*.map
+
+# package
+package-lock.json
