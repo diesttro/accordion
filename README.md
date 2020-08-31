@@ -1,10 +1,10 @@
-## Description
+## Accordion
 
-Accordion made in plain JavaScript.
-
-Expand and collapse sections by clicking over them.
+Expand and collapse accordion by clicking over it.
 
 You can see a demo [here](https://diesttro.github.io/accordion/).
+
+_Please note that this is a technical test and the code is intended to meet those requirements._
 
 ## Usage
 
@@ -31,17 +31,15 @@ The accordion must have the following markup structure.
 
 The most important part are the **Accordion-title** and **Accordion-content** class, accordion works over them. If you want to load data from external source you need to add data-url attribute and modify loadData method in accordion.js file.
 
-To see the accordion in action simply open the index.html file.
-
 ## Test
 
-Before start make sure you have installed all dependencies.
+Before start make sure you have installed all the dependencies.
 
 ```bash
-npm i
+npm install
 ```
 
-Then run the tests.
+Then you can run the tests.
 
 ```bash
 npm run test
